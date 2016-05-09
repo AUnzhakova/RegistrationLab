@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reg</string>
+    <string name="name">name</string>
+    <string name="passwordDataAccess">LOGINS_WITH_PASSWORDS_DATA_ACCESS</string>
+    <string name="loginDataAccess">LOGINS_WITH_NAMES_DATA_ACCESS</string>
+
+</resources>

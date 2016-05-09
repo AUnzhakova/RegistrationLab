@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.alisaunzakova.reg.logActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Log In"
+        android:textSize="30sp"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please, Enter your Login:"
+        android:id="@+id/logInLogInTextView"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/logEdText"
+        android:layout_below="@+id/logInLogInTextView"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please, Enter your Password:"
+        android:id="@+id/passwordLogInTextView"
+        android:layout_below="@+id/logEdText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/passEdText"
+        android:layout_below="@+id/passwordLogInTextView"
+        android:layout_alignParentStart="true"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:textSize="20sp"
+        android:id="@+id/cancelButton"
+        android:layout_below="@+id/passEdText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Log In"
+        android:textSize="20sp"
+        android:id="@+id/logButton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
